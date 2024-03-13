@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap');
+/* font-family: "Slackside One", cursive;  */
+/* font-family: "Poppins", sans-serif; */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    width: 1440px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+a{
+    color: inherit;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    gap: 40px;
+}
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    font-family: "Slackside One", cursive;
+    position: absolute;
+    top: 20px;
+    right: 300px;
+    color: aliceblue;
+}
+.navimg img{
+    width: 70px;
+    height: 70px;
+    top: 200px;
+    transform: rotateY(180deg);
+    
+}
+i{
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+    border-radius: 50%;
+    
+
+}
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.ufo_img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    gap: 40px;
+}
+
+
+body{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
+    }
+.UFO2{
+    color: bisque;
+    font-size: 70px;
+    width: 45%;
+    font-family: "Slackside One", cursive;
+
+}
+p{
+    font-size: 40px;
+}
+button{
+    color: black;
+    background-color: blue;
+    border-radius: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: bisque;
+}
+.card{
+    transition: transform 1s;
+    overflow: hidden;
+    width: 45%;
+    transform: t;
+}
+.card img:hover{
+    scale: 1s;
+    filter: brightness(0.9);
+}
+#p2{
+    font-size: 10px;
+    color: white;
+}
+.UFO{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    font-family: "Slackside One", cursive; 
+   
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center!important;
+}
+
+.card1{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("ufo2.jpg");
+    
+
+}
+.card2{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("ufo2.jpg");
+    
+}
+.card3{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("ufo2.jpg");
+    
+}
+.card4{
+    background: linear-gradient(61deg, rgba(28, 28, 29, 0.368) 0%, rgba(1, 1, 1, 0.264) 100%), url("ufo2.jpg");
+}
+
